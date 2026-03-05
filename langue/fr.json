@@ -1,0 +1,132 @@
+{
+    "header": {
+        "dev": ["Compétences", "Projets", "Contact"],
+        "art": ["Créations", "Projets", "Contact"]
+    },
+    "bulle":{
+        "start" : "Quel univers veux-tu découvir ?",
+        "dev": "J'ai étudié le développement web pendant 3 ans.",
+        "art": " J'ai toujours aimé l'art.",
+        "random":[
+            "Je suis en IUT Métiers du Multimédia et de l'Internet.",
+            "J'adore la soupe au pistou.",
+            "J'ai pris l'option audiovisuel au lycée.",
+            "J'ai passé mon bac avec les spécialités Informatique et Anglais.",
+            "Tout le monde aime la pizza hawaïenne, non ?",
+            "J'aime bien la mer, ça se voit ?",
+            "Les gens devraient plus s'écouter.",
+            "On peut toujours en retirer quelque chose.",
+            "'Dans un monde de portes fermées, l’homme qui a la clé est roi.'",
+            "Les jours de pluie sont mes préférés."
+        ],
+        "annoyed": "Arrête."
+    },
+    "boutonChoix": {
+        "boutonArt":"Artiste",
+        "boutonDev":"Développeuse"
+    },
+    "sectionArt": {
+        "creations":["Tous", "Animation", "Digital", "Traditionnel"],
+        "projets": [
+            {
+                "img": "projetsImg/APMEP_exposition.png",
+                "titre": "Mascotte journée nationale APMEP 2025",
+                "type": "Projet personnel",
+                "description": "Conception d'un personnage entièrement à partir de caractères mathématiques sur Clip Studio Paint.  Celui-ci étant destiné à illustrer le livret de la journée nationale des mathématiques 2025 à Toulon.",
+                "lien": "mascotte-apmep-2025.pdf",
+                "lienTexte": "Voir le PDF"
+            },
+            {
+                "img": "projetsImg/blacknedCorvus.png",
+                "titre": "Blackned corvus",
+                "type": "Projet universitaire",
+                "description": "Réalisation de la stratégie de communication et d'un clip de l’une des musiques d’un groupe de musique local.",
+                "lien": "https://www.youtube.com/watch?v=Yyk3yKG4B1g",
+                "lienTexte": "Voir la vidéo"
+            },
+            {
+                "img": "projetsImg/bdCrous.jpg",
+                "titre": "Bd concours Crous 2025",
+                "type": "Projet personnel",
+                "description": "Création d'une bande dessinée à l'occasion du concours Crous en quatre pages portant sur le thème du courage. Réalisé avec des feutres.",
+                "lien": "https://www.artstation.com/artwork/XJKmR3",
+                "lienTexte": "Voir les planches"
+            }
+        ],
+        "reseaux":{
+            "Artstation": "https://www.artstation.com/lunicolor",
+            "Instagram": "https://www.instagram.com/lunicolorwastaken/",
+            "Tumblr": "https://www.tumblr.com/lunicolor",
+            "Toyhouse" : "https://toyhou.se/lunicolor",
+            "Artfight" : "https://artfight.net/~Lunicolor"
+        }
+    },
+    "sectionDev": {
+        "competences":[
+            {
+                "titre": "Back-end",
+                "competences": ["PHP","SQL" ,"Laravel", "Symfony", "NodeJS", "Python"],
+                "description": "Dans le cadre de ma formation MMI, j’ai pu acquérir des connaissances en développement back-end en réalisant des interfaces utilisant des bases de données SQL principalement en PHP. Il m’a aussi été donné d’apprendre des frameworks et le langage Python."
+            },
+            {
+                "titre": "Front-end",
+                "competences": ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "VueJS", "Twig"],
+                "description": "Dans le cadre de ma formation MMI, j’ai pu acquérir des connaissances en développement front-end en réalisant des applications responsives et ergonomiques avec du HTML et CSS ainsi que des interactions en JavaScript. J’ai également appris à utiliser des frameworks et des bibliothèques dans ce but."
+            },
+            {
+                "titre": "Outils & CMS",
+                "competences": ["Visual Studio Code","Git", "Docker", "WordPress", "PEEL"],
+                "description": "Afin d’effectuer mon travail au mieux, j’ai appris à utiliser les outils à ma disposition pour maximiser mon efficacité en développement, que ce soit pour le développement en équipe ou l’hébergement."
+            },
+            {
+                "titre": "Design & médias",
+                "competences": ["Suite Adobe", "Canva", "Figma", "Audiovisuel", "Graphisme", "Animation"],
+                "description" : "Grâce à mon attrait pour l’art et à la diversité de mes études en MMi, j’ai pu développer des compétences solides en graphisme, que ce soit pour la conception de logos ou la création de visuels, ainsi que les capacités de réaliser un clip vidéo ou encore de créer une maquette fonctionnelle."
+            },
+            {
+                "titre": "Web & marketing",
+                "competences": ["Google Analytics", "Google Tag Manager", "SEO", "Make", "Stratégie de communication","Anglais", "Rédaction" ],
+                "description": "Avec mes compétences en codage, j’ai acquis une expertise dans la mise en avant de mes réalisations, que ce soit pour le référencement, le tracking ou en marketing. J’ai aussi des compétences dans l’utilisation de CMSs comme wordpress ou dans l’automatisation de tâches avec Make."
+            },
+            {
+                "titre" : "Organisation",
+                "competences": ["Gestion de projet", "Droit", "Méthodologie Agile", "Trello", "Notion", "MindView"],
+                "description": "J’ai pu réaliser de nombreux projets en groupe, parfois avec de vrais clients, cela m’a permis d’acquérir des compétences en gestion de projet, en droit et la capacité de travailler en groupe au sein d’une structure."
+            }
+        ],
+        "projets": [
+            {
+                "img": "projetsImg/papiersdeparis.jpg",
+                "titre": "Stage à Papiers de Paris",
+                "type": "Projet universitaire",
+                "description": "Stage de développement web chez Papiers de Paris, une entreprise de papier peint de luxe. J’ai amélioré le site web de l’entreprise en le rendant plus agréable et en améliorant le tracking d’achat à l'aide de Google Tag Manager.",
+                "lien": "https://www.papiersdeparis.com",
+                "lienTexte": "Voir le site"
+            },
+            {
+                "img": "projetsImg/SeriousScience.jpg",
+                "titre": "SeriouScience",
+                "type": "Projet universitaire",
+                "description": "Création d'un CMS permettant la publication d'articles, leur notation ainsi que la modification de thème et la gestion de comptes utilisateur avec React et Symfony.",
+                "lien": "https://github.com/Lunicolorage/SAE5012",
+                "lienTexte": "Voir le projet"
+            },
+            {
+                "img": "projetsImg/batimen.jpg",
+                "titre": "Batiment",
+                "type": "Projet universitaire",
+                "description": "Création d'une entreprise fictive dont les employés ont des superpouvoirs : réalisation d'un site sous WordPress, d’une stratégie de communication, du logo, d’un shooting photo et d'un clip promotionnel.",
+                "lien": "https://www.youtube.com/watch?v=YAycncvveVM&list=PLh4UFqvVKW5naC5PFrSMqL6peTpbxxkmN&index=7&t=10s",
+                "lienTexte": "Voir la vidéo"
+            }
+        ],
+        "reseaux":{
+            "Github": "https://github.com/Lunicolorage"
+        }
+    },
+    "contact":{
+        "contact": "Contact",
+        "mail": "Mail : ",
+        "reseaux" : "Mes réseaux :"
+    }
+}

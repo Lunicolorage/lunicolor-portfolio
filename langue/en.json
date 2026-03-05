@@ -1,0 +1,134 @@
+{
+    "header": {
+        "dev": ["Skills", "Projects", "Contact"],
+        "art": ["Artworks", "Projects", "Contact"]
+    },
+    "bulle": {
+        "start" : "What side do you want to see ?",
+        "dev": "I studied web development for three years.",
+        "art": "I've always loved art.",
+            "random": [
+                "I am studying at a university institute of technology. (BUT MMI)",
+                "I love pistou soup.",
+                "I took the audiovisual option in high school.",
+                "I passed my high school diploma with specializations in Computer Science and English.",
+                "Everyone loves Hawaiian pizza, right ?",
+                "I kinda love the sea, can you tell ?",
+                "People should listen to each other more.",
+                "There is always something to draw out of it.",
+                "'In a world of locked rooms, the man with the key is king.'",
+                "Rainy days are the best."
+            ],
+        "annoyed": "Stop."
+    },
+    "boutonChoix": {
+        "boutonArt":"Artist",
+        "boutonDev":"Developer"
+    },
+    "sectionArt": {
+        "creations":["All", "Animation", "Digital", "Traditional"],
+        "projets": [
+            {
+                "img": "projetsImg/APMEP_exposition.png",
+                "titre": "Mascot for the APMEP national day 2025",
+                "type": "Personal project",
+                "description": "Design of a character entirely from mathematical symbols in Clip Studio Paint. This character is intended to illustrate the booklet for National Mathematics Day 2025 in Toulon.",
+                "lien": "mascotte-apmep-2025.pdf",
+                "lienTexte": "See the PDF"
+            },
+            {
+                "img": "projetsImg/blacknedCorvus.png",
+                "titre": "Blackned corvus",
+                "type": "University project",
+                "description": "Creation of the communication strategy and production of a music video for one of the songs by a local band.",
+                "lien": "https://www.youtube.com/watch?v=Yyk3yKG4B1g",
+                "lienTexte": "See the video"
+            },
+            {
+                "img": "projetsImg/bdCrous.jpg",
+                "titre": "Comic for the Crous contest 2025",
+                "type": "Personal project",
+                "description": "Creation of a comic strip for the Crous competition, consisting of three pages on the four of courage. Created using felt-tip pens.",
+                "lien": "https://www.artstation.com/artwork/XJKmR3",
+                "lienTexte": "See the pages"
+            }
+        ],
+        "reseaux":{
+            "Artstation": "https://www.artstation.com/lunicolor",
+            "Instagram": "https://www.instagram.com/lunicolorwastaken/",
+            "Tumblr": "https://www.tumblr.com/lunicolor",
+            "Toyhouse" : "https://toyhou.se/lunicolor",
+            "Artfight" : "https://artfight.net/~Lunicolor"
+        }
+        
+    },
+    "sectionDev": {
+        "competences":[
+            {
+                "titre": "Back-end",
+                "competences": ["PHP","SQL" ,"Laravel", "Symfony", "NodeJS", "Python"],
+                "description": "As part of my MMI studies, I was able to acquire knowledge in back-end development by creating interfaces using SQL databases, mainly in PHP. I also had the opportunity to learn frameworks and the Python language."
+            },
+            {
+                "titre": "Front-end",
+                "competences": ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "VueJS", "Twig"],
+                "description": "As part of my MMI studies, I gained knowledge in front-end development by creating responsive and user-friendly applications using HTML and CSS, as well as JavaScript interactions. I also learned how to use frameworks and libraries for this purpose."
+            },
+            {
+                "titre": "Tools & CMS",
+                "competences": ["Visual Studio Code","Git", "Docker", "WordPress", "PEEL"],
+                "description": "In order to do my job as well as possible, I have learned to use the tools at my disposal to maximize my efficiency in development, whether for team development or hosting."
+            },
+            {
+                "titre": "Design & media",
+                "competences": ["Adobe Suite", "Canva", "Figma", "Audiovisual", "Graphic design", "Animation"],
+                "description" : "Thanks to my interest in art and the diversity of my studies in MMi, I have been able to develop solid skills in graphic design, whether for logo design or visual creation, as well as the ability to produce a video clip or create a functional model."
+            },
+            {
+                "titre": "Web & marketing",
+                "competences": ["Google Analytics", "Google Tag Manager", "SEO", "Make", "Communication","English", "Writing" ],
+                "description": "With my coding skills, I have gained expertise in promoting my achievements, whether for SEO, tracking, or marketing. I also have skills in using CMSs such as WordPress and in automating tasks with Make."
+            },
+            {
+                "titre" : "Organisation",
+                "competences": ["Project Management", "Law", "Agile Methodology", "Trello", "Notion", "MindView"],
+                "description": "I was able to carry out numerous group projects, sometimes with real clients, which allowed me to acquire skills in project management, law, and the ability to work in a team within an organization."
+            }
+        ],
+        "projets": [
+            {
+                "img": "projetsImg/papiersdeparis.jpg",
+                "titre": "Internship at Papiers de Paris",
+                "type": "University project",
+                "description": "Web development internship at Papiers de Paris, a luxury wallpaper company. I improved the company's website by making it more user-friendly and improving purchase tracking with Google Tag Manager.",
+                "lien": "https://www.papiersdeparis.com",
+                "lienTexte": "See the website"
+            },
+            {
+                "img": "projetsImg/SeriousScience.jpg",
+                "titre": "SeriouScience",
+                "type": "University project",
+                "description": "Creation of a CMS enabling the publication of articles, their rating, theme modification, and user account management with React and Symfony.",
+                "lien": "https://github.com/Lunicolorage/SAE5012",
+                "lienTexte": "See the project"
+            },
+            {
+                "img": "projetsImg/batimen.jpg",
+                "titre": "Batiment",
+                "type": "University project",
+                "description": "Creation of a fictional company whose employees have superpowers: development of a WordPress website, communication strategy, logo, photo shoot, and promotional video.",
+                "lien": "https://www.youtube.com/watch?v=YAycncvveVM&list=PLh4UFqvVKW5naC5PFrSMqL6peTpbxxkmN&index=7&t=10s",
+                "lienTexte": "See the video"
+            }
+        ],
+        "reseaux":{
+            "Github": "https://github.com/Lunicolorage"
+        }
+        
+    },
+    "contact":{
+        "contact": "Contact",
+        "mail": "Mail : ",
+        "reseaux" : "Socials :"
+    }
+}
