@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family: "AnonymousPro";
+    src: url('/Anonymous_Pro/AnonymousPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "AnonymousProBold";
+    src: url('/Anonymous_Pro/AnonymousPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "AnonymousProItalic";
+    src: url('/Anonymous_Pro/AnonymousPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+@font-face {
+    font-family: "AnonymousProBoldItalic";
+    src: url('/Anonymous_Pro/AnonymousPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: "AnonymousPro", monospace;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.3em;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --velvetred: #8F1D2E;
+  --purpleblue: #3C41C1;
+
+
+}
+
+select, button {
+  font-family: "AnonymousPro", monospace;
+  font-size: 0.8em;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin: 0;
+}
+
+span {
+  font-family: "AnonymousProBold", monospace;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+#creations, #projets, #contact, #artworks, #skills, #competences {
+  scroll-margin-top: 80px;
+}
